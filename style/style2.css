@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Neonderthaw&display=swap');
+
+/*загальні стилі*/
+:root{
+   --bg: rgb(255, 252, 246);
+   --text: rgb(33, 33, 33);
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   background-color: var(--bg);
+}
+
+.conteiner{
+   max-width: 1300px;
+   margin: 10px auto;
+}
+
+p{
+   line-height: 30px;
+   margin-top: -10px;
+   color: var(--bg);
+   background-color: var(--text);
+   width: 210px;
+   position: absolute;
+   text-align: center;
+   margin-left: 10px;
+   border-radius: 20px;
+   font-size: 20px;
+}
+
+h1{
+   line-height: 80px;
+}
+
+.one, .two, .three{
+   text-decoration: none;
+   font-size: 22px;
+   position: absolute;
+   margin-left: -390px;
+   margin-top: -10px;
+   color: var(--bg);
+   background-color: var(--text);
+   border-radius: 20px;
+   text-align: center;
+   line-height: 30px;
+   width: 160px;
+}
+
+.workthree,
+.cooldowntwo{
+   margin-left: 45px;
+}
+
+.cooldownone{
+   margin-top: 25px;
+}
+
+#cooldownone{
+   margin-top: 15px;
+}
+
+#work{
+   margin-left: 910px;
+   margin-top: -240px;
+}
+
+#workone{
+   margin-left: 910px;
+   margin-top: -30px;
+   font-size: 14px;
+   line-height: 22px;
+   width: 300px;
+}
+
+#worktwo{
+   font-size: 14px;
+   line-height: 22px;
+   width: 300px;
+   margin-top: 200px;
+}
+
+img{
+   border-radius: 20px;
+}

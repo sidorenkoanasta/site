@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Neonderthaw&display=swap');
+
+/*загальні стилі*/
+:root{
+   --bg: rgb(255, 252, 246);
+   --text: rgb(33, 33, 33);
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   background-color: var(--bg);
+}
+
+.conteiner{
+   max-width: 1300px;
+   margin: 10px auto;
+}
+
+p{
+   line-height: 25px;
+   color: var(--text);
+}
+
+h1{
+   line-height: 80px;
+   color: var(--text);
+}
+
+img{
+   border-radius: 20px;
+}
+
+/*плавна прокрутка*/ 
+html {
+   scroll-behavior: smooth;
+ }
+
+/*стилі для меню*/
+.menu{
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   margin: 0 auto;
+   font-size: 24px;
+   height: 80px;
+   width: 1280px;
+   line-height: 80px;
+}
+
+.nav{
+   position: fixed;
+   z-index: 2;
+   background-color: var(--bg);
+   width: 100%;
+   margin-top: -80px;
+}
+
+a{
+   text-decoration: none;
+   color: var(--text);
+}
+
+#screen1{
+   margin-top: 80px;
+}
+
+.home{
+   font-weight: bold;
+   font-size: larger;
+}
+
+#screen1 img{
+   margin-top: -50px;
+}
+
+#screen1 #mob{
+   display: none;
+}
+
+#screen1 p,
+#screen1 h1{
+   position: absolute;
+}
+
+#screen1 h1{
+   margin-left: 10px;
+   color: var(--bg);
+}
+
+#screen1 p{
+   margin-top: 60px;
+   margin-left: 10px;
+   color: var(--bg);
+}
+
+#screen2 .one{
+   margin-right: 95px;
+}
+
+#screen2 h2,
+#screen2 p{
+   position: absolute;
+   color: var(--text);
+}
+
+#screen2 .first{
+   margin-left: 10px;
+   margin-top: -10px;
+   color: var(--bg);
+   background-color: var(--text);
+   width: 240px;
+   text-align: center;
+   line-height: 50px;
+   border-radius: 20px;
+}
+
+#screen2 .duration1{
+   margin-top: 50px;
+   margin-left: 20px;
+}
+
+#screen2 .equipment1{
+   margin-top: 80px;
+   margin-left: 20px;
+   width: 200px;
+}
+
+#screen2 .second{
+   margin-top: -415px;
+   margin-left: 710px;
+   color: var(--bg);
+   background-color: var(--text);
+   width: 270px;
+   text-align: center;
+   line-height: 50px;
+   border-radius: 20px;
+}
+
+#screen2 .duration2{
+   margin-top: -355px;
+   margin-left: 720px;
+   color: var(--bg);
+}
+
+#screen2 .equipment2{
+   margin-top: -325px;
+   margin-left: 720px;
+   width: 200px;
+   color: var(--bg);
+}
+
+#screen3 #meal1-name{
+   margin-top: -420px;
+   margin-left: 5px;
+   width: 280px;
+   color: var(--bg);
+   text-align: center;
+   background-color: var(--text);
+   position: absolute;
+   border-radius: 20px;
+}
+
+#screen3 #meal2-name{
+   margin-top: -420px;
+   margin-left: 330px;
+   width: 180px;
+   color: var(--bg);
+   text-align: center;
+   background-color: var(--text);
+   position: absolute;
+   border-radius: 20px;
+}
+
+#screen3 #meal3-name{
+   margin-top: -420px;
+   margin-left: 655px;
+   width: 80px;
+   color: var(--bg);
+   text-align: center;
+   background-color: var(--text);
+   position: absolute;
+   border-radius: 20px;
+}
+
+#screen3 #meal4-name{
+   margin-top: -420px;
+   margin-left: 980px;
+   width: 250px;
+   color: var(--bg);
+   text-align: center;
+   background-color: var(--text);
+   position: absolute;
+   border-radius: 20px;
+}
+
+#screen3 #meal5-name{
+   margin-top: -420px;
+   margin-left: 5px;
+   width: 150px;
+   color: var(--bg);
+   text-align: center;
+   background-color: var(--text);
+   position: absolute;
+   border-radius: 20px;
+}
+
+#screen3 #meal6-name{
+   margin-top: -420px;
+   margin-left: 330px;
+   width: 280px;
+   color: var(--bg);
+   text-align: center;
+   background-color: var(--text);
+   position: absolute;
+   border-radius: 20px;
+}
+
+#screen3 #meal7-name{
+   margin-top: -420px;
+   margin-left: 655px;
+   width: 80px;
+   color: var(--bg);
+   text-align: center;
+   background-color: var(--text);
+   position: absolute;
+   border-radius: 20px;
+}
+
+#screen3 #meal8-name{
+   margin-top: -420px;
+   margin-left: 980px;
+   width: 180px;
+   color: var(--bg);
+   text-align: center;
+   background-color: var(--text);
+   position: absolute;
+   border-radius: 20px;
+}
+
+#screen3 img{
+   margin-right: 21px;
+}
+
+#screen4{
+   margin-top: 40px;
+}
+
+#screen4 h1,
+#screen4 p,
+#screen4 .icons,
+#screen4 .copyright,
+#screen4 .fa-copyright,
+#screen4 a{
+   position: absolute;
+}
+
+#screen4 h1{
+   margin: 10px;
+   margin-top: -10px;
+   color: var(--bg);
+   background-color: var(--text);
+   width: 200px;
+   text-align: center;
+   border-radius: 20px;
+}
+
+#screen4 p{
+   font-weight: bold;
+   text-align: center;
+   background-color: var(--bg);
+   border-radius: 20px;
+}
+
+#screen4 .one{
+   margin-left: 10px;
+   margin-top: 78px;
+   width: 550px;
+}
+
+#screen4 .two{
+   margin-left: 10px;
+   margin-top: 320px;
+   width: 480px;
+}
+
+#screen4 .three{
+   margin-left: 990px;
+   margin-top: 350px;
+   width: 300px;
+}
+
+#screen4 .copyright{
+   margin-left: 30px;
+   margin-top: 660px;
+}
+
+#screen4 .fa-copyright{
+   margin-left: 10px;
+   margin-top: 662px;
+}
+
+#screen4 #mobile{
+   display: none;
+}
+
+@media screen and (max-width: 1080px){
+
+   .conteiner{
+      width: 250px;
+      margin: 0 auto;
+   }
+
+   .nav{
+      height: 250px;
+      margin: 10px auto;
+      position: static;
+      border: 4px dotted var(--text);
+      border-radius: 40px;
+      width: 250px;
+   }
+
+   .menu{
+      width: 250px;
+      font-size: 25px;
+      line-height: 50px;
+      flex-direction: column;
+      text-align: center;
+      padding-top: 20px;
+   }
+
+   #screen4 .three{
+      margin-left: 10px;
+      margin-top: 450px;
+      width: 300px;
+   }
+
+   #screen1 #mob{
+      display: block;
+   }
+
+   #screen1 #web{
+      display: none;
+   }
+
+   h1{
+      font-size: 30px;
+      line-height: 40px;
+   }
+
+   p{
+      font-size: 15px;
+      line-height: 20px;
+   }
+
+   #screen1 h1{
+      margin-top: 0;
+      margin-left: 60px;
+      font-size: 35px;
+      line-height: 50px;
+   }
+
+   #screen1 p{
+      padding: 60px;
+      text-align: center;
+      margin-top: 300px;
+      margin-left: -45px;
+   }
+
+   #screen2 img{
+      width: 250px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+   }
+
+   #screen2 h1{
+      margin-top: 20px;
+   }
+
+   #screen2 h2{
+      font-size: 20px;
+   }
+
+   #screen2 .first{
+      width: 200px;
+      line-height: 30px;
+      border-radius: 20px;
+      margin-left: 10px;
+      margin-top: 5px;
+   }
+
+   #screen2 .duration1{
+      margin-top: 35px;
+      margin-left: 10px;
+      font-weight: bolder;
+   }
+
+   #screen2 .equipment1{
+      margin-top: 60px;
+      font-size: 15px;
+      width: 100px;
+      line-height: 20px;
+      margin-left: 10px;
+   }
+
+   #screen2 .second{
+      width: 230px;
+      line-height: 30px;
+      border-radius: 20px;
+      margin-top: 5px;
+      margin-left: 10px;
+   }
+
+   #screen2 .duration2{
+      margin-top: 35px;
+      margin-left: 10px;
+      font-weight: bolder;
+   }
+
+   #screen2 .equipment2{
+      margin-top: 60px;
+      width: 230px;
+      line-height: 20px;
+      margin-left: 10px;
+      width: 100px;
+   }
+
+   img{
+      border-radius: 20px;
+   }
+
+   #screen3 img{
+      width: 120px;
+      margin-right: 0;
+   }
+
+   #screen3 #meal1-name{
+      width: 120px;
+      margin-left: 130px;
+      margin-top: -120px;
+   }
+
+   #screen3 #meal2-name{
+      width: 120px;
+      margin-top: -110px;
+      margin-left: 0;
+   }
+
+   #screen3 #meal3-name{
+      width: 120px;
+      margin-left: 130px;
+      margin-top: -100px;
+      line-height: 40px;
+   }
+
+   #screen3 #meal4-name{
+      width: 120px;
+      margin-left: 0;
+      margin-top: -130px;
+   }
+
+   #screen3 #meal5-name{
+      width: 120px;
+      margin-left: 130px;
+      margin-top: -100px;
+      line-height: 40px;
+   }
+
+   #screen3 #meal6-name{
+      width: 120px;
+      margin-left: 0;
+      margin-top: -120px;
+   }
+
+   #screen3 #meal7-name{
+      width: 120px;
+      margin-left: 130px;
+      margin-top: -100px;
+      line-height: 40px;
+   }
+
+   #screen3 #meal8-name{
+      width: 120px;
+      margin-left: 0;
+      margin-top: -120px;
+   }
+
+   #screen3 #twoimg{
+      margin-top: 0;
+      margin-left: 130px;
+   }
+
+   #screen4 #mobile{
+      display: block;
+   }
+
+   #screen4 #comp{
+      display: none;
+   }
+
+   #screen4 p{
+      border-radius: 20px;
+   }
+
+   #screen4 h1{
+      width: 200px;
+      border-radius: 20px;
+      margin-top: -20px;
+   }
+
+   #screen4 .one{
+      margin-left: 10px;
+      margin-top: 30px;
+      width: 160px;
+      font-size: 12px;
+      line-height: 17px;
+   }
+   
+   #screen4 .two{
+      display: none;
+   }
+   
+   #screen4 .three{
+      margin-left: 10px;
+      margin-top: 330px;
+      width: 200px;
+      font-size: 12px;
+      line-height: 17px;
+   }
+
+   #screen4 .copyright{
+      margin-left: 130px;
+      margin-top: 420px;
+      color: var(--bg);
+   }
+   
+   #screen4 .fa-copyright{
+      margin-left: 110px;
+      margin-top: 422px;
+      color: var(--bg);
+   }
+
+}
